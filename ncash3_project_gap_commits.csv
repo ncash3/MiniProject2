@@ -1,0 +1,499 @@
+pre;afeinstein20_eleanor;c41abed7b747d577551add97f32564cc863ecba4;Adina Feinstein <adina.d.feinstein@gmail.com>;1656954312;"gaia dr3 in changelog
+"
+pre;afeinstein20_eleanor;ecbb42b2cc2789263c1116bc941365b0c957779e;Ethan Kruse <6944089+ethankruse@users.noreply.github.com>;1668628915;"move tensorflow imports into functions so the package will load without it
+"
+pre;afeinstein20_eleanor;1d5cfc94fed02bef117beb195920232ec6b8eae5;Ethan Kruse <6944089+ethankruse@users.noreply.github.com>;1668638433;"use 20-sec cadence targets for the new 200s FFIs
+"
+pre;afeinstein20_eleanor;4a5eceb71cffb9a3d1b44aa24db0c1aa0524df41;benmontet <b.montet@unsw.edu.au>;1675059858;"Merge pull request #262 from ethankruse/newcadence
+
+Get eleanor working for S56 and beyond"
+pre;afeinstein20_eleanor;8eddbbcaca54da33e973285e409a3a27516ab032;orionlee <orionlee@yahoo.com>;1676161774;"fix update_max_sector() : update the proper maxsector.py
+"
+pre;afeinstein20_eleanor;a1cf9f3e82506a1c67343d0bd4f06c010578a55c;Sam Lee <orionlee@users.noreply.github.com>;1676161808;"Merge 8eddbbcaca54da33e973285e409a3a27516ab032 into 4a5eceb71cffb9a3d1b44aa24db0c1aa0524df41
+"
+pre;afeinstein20_eleanor;eddbe7e181d638e4c9d0968014daffaae0ed5f9f;orionlee <orionlee@yahoo.com>;1676580436;"bug fix: aperture_contour() does not return figure created
+"
+pre;afeinstein20_eleanor;066e1731fde14fed6fa6c4b6bc8eb6be9b376a0b;Sam Lee <orionlee@users.noreply.github.com>;1676580517;"Merge eddbe7e181d638e4c9d0968014daffaae0ed5f9f into 4a5eceb71cffb9a3d1b44aa24db0c1aa0524df41
+"
+pre;afeinstein20_eleanor;d642906c0ac3a96d30d9465dba41fe92d2936d1c;Ethan Kruse <6944089+ethankruse@users.noreply.github.com>;1683236511;"fix eleanor and future-proof through Year 6
+
+Currently broken again starting with S61 and the flip to the south/2023 subdirectory."
+pre;afeinstein20_eleanor;7a4e46ee1fca921cbd70a3a27dec5877022147ac;Ethan Kruse <6944089+ethankruse@users.noreply.github.com>;1683236595;"Merge d642906c0ac3a96d30d9465dba41fe92d2936d1c into 4a5eceb71cffb9a3d1b44aa24db0c1aa0524df41
+"
+post;afeinstein20_eleanor;e36384b804e8c9c6654457fce4c013daf7146f27;benmontet <benmontet@gmail.com>;1717136699;"update script fixes for new fields, faster cadences
+"
+post;afeinstein20_eleanor;45f8b1a1ba7e964a36273c8f55f8d43cc9b7794d;benmontet <b.montet@unsw.edu.au>;1717322713;"clean up update script for new fields
+"
+post;afeinstein20_eleanor;05e8e8db9eab865dcfa632406cc1eab3cc3b756b;benmontet <b.montet@unsw.edu.au>;1717468174;"tweak for Sector 65 missing data in 4-4
+"
+post;afeinstein20_eleanor;5efb916a2ce3cc4f34e6c639e5bd899b890035a2;Sam Lee <orionlee@users.noreply.github.com>;1718669741;"Merge 8eddbbcaca54da33e973285e409a3a27516ab032 into 05e8e8db9eab865dcfa632406cc1eab3cc3b756b
+"
+post;afeinstein20_eleanor;11b8ad90acda9f1bc64ca00d2b7301e87c304e4c;Sam Lee <orionlee@users.noreply.github.com>;1718669741;"Merge eddbe7e181d638e4c9d0968014daffaae0ed5f9f into 05e8e8db9eab865dcfa632406cc1eab3cc3b756b
+"
+post;afeinstein20_eleanor;dc5c3891e41d6caf8468ea91725338dda5d63544;orionlee <orionlee@yahoo.com>;1726967274;"completed the fixes for pixel_by_pixel() orientation
+- 0d36441 fixed the small plot at the left, but not the main plot at the right
+"
+post;afeinstein20_eleanor;f3426b1f0c64893c72172a58506291aba983858e;Sam Lee <orionlee@users.noreply.github.com>;1726967408;"Merge dc5c3891e41d6caf8468ea91725338dda5d63544 into 05e8e8db9eab865dcfa632406cc1eab3cc3b756b
+"
+post;afeinstein20_eleanor;d701e80cb02f1c1e6428d4acf2b05dd2e60e24bb;orionlee <orionlee@yahoo.com>;1727403287;"Workaround cases that num. cadences of TPF does not match sector-wide quality flags
+"
+post;afeinstein20_eleanor;91e346a21554b3496f574bad98b34d970d76f881;orionlee <orionlee@yahoo.com>;1727411412;"Better fix  for num. cadence mismatch between tpf and sector wide quality
+- regen quality by adapting the logic from Update.get_quality()
+"
+post;afeinstein20_eleanor;cdab0c63f285b51f10e03a4fcb0165fd81c93a39;orionlee <orionlee@yahoo.com>;1727803793;"Num. cadence mismatch in quality: improved warning message.
+"
+pre;algebraicjulia_catlab.jl;9ef1c785e11065a07b0a77a65d9a7ba16f366e8a;epatters <ejpatters@gmail.com>;1550030568;"ENH: Handle empty vector when taking monoidal product of a vector.
+"
+pre;algebraicjulia_catlab.jl;64ce7a943b4c2ee608899af37c45aad5008993fa;epatters <ejpatters@gmail.com>;1550031766;"ENH: Use \cdot operator for left-to-right composition.
+"
+pre;algebraicjulia_catlab.jl;7fe15961c687e07ca9ac9bb5c7fda5e6063109c5;epatters <ejpatters@gmail.com>;1550091612;"REFACTOR: Objects in category of wiring layers are ints, not lists.
+"
+pre;algebraicjulia_catlab.jl;216663279d888d7299fc0e20d315ffaa25ae93d7;Evan Patterson <ejpatters@gmail.com>;1551384743;"BUILD: Use version of UnionFind.jl that is now in Julia registry.
+"
+pre;algebraicjulia_catlab.jl;c10e996300ac2a723b470440e91c57b91593fe13;Evan Patterson <ejpatters@gmail.com>;1551385382;"BUILD: Bump version to v0.2.1.
+"
+pre;algebraicjulia_catlab.jl;234f4ffa0f128c6b3ce1569952048a7f96ffb2cf;epatters <ejpatters@gmail.com>;1551506019;"COSMETIC: Option to disable node labels in Graphviz wiring diagrams.
+"
+pre;algebraicjulia_catlab.jl;251da68929551da3227e069aace7e52f506f8c47;epatters <ejpatters@gmail.com>;1551507630;"COSMETIC: Option to change port size in Graphviz wiring diagrams.
+
+Actually, this is the *minimum* port size. The ports will expand uniformly
+to fill any extra space.
+"
+pre;algebraicjulia_catlab.jl;41042be7641665e6fb5813b3a7ee327845130c87;Evan Patterson <ejpatters@gmail.com>;1551823645;"ENH: Convert wiring layers to formulas (expression trees).
+"
+pre;algebraicjulia_catlab.jl;8e05282c431b47ea939bbbd196ad0333ab56ee07;Evan Patterson <ejpatters@gmail.com>;1551988736;"BUILD: Drop support for Julia v0.7 and test Julia v1.1 on Travis.
+"
+pre;algebraicjulia_catlab.jl;d5aed81ec6966beecbeb282d3202cbb8d9367c83;Evan Patterson <ejpatters@gmail.com>;1552091939;"BUG: Nodes representing ports in Graphviz export were missing IDs.
+
+Follow up to #26.
+"
+post;algebraicjulia_catlab.jl;c78b810a10671e5b146c1db9b88dd91571e7a198;Evan Patterson <ejpatters@gmail.com>;1564616993;"DOC: Add notebook on the basics of wiring diagrams in Catlab.
+"
+post;algebraicjulia_catlab.jl;1f7b1ca4d4cf4f8c55005048077b6f4281bc73c1;epatters <ejpatters@gmail.com>;1564624055;"DOC: Update notebook on algebraic nets for changes to graphics API.
+"
+post;algebraicjulia_catlab.jl;b22c7189ae9810578dedb7ba480b99bea8020fdd;epatters <ejpatters@gmail.com>;1564624520;"DOC: Sort example notebooks into folders.
+"
+post;algebraicjulia_catlab.jl;43368ab97205daae90b052694add08651d6e31cc;epatters <ejpatters@gmail.com>;1564625490;"DOC: Split Graphviz and TikZ examples into two separate notebooks.
+"
+post;algebraicjulia_catlab.jl;a289a5b76b27ef1bcd7e241e26a7007cdafabf27;epatters <ejpatters@gmail.com>;1564798565;"CLEANUP: Eliminate Nullables in TikZ wiring diagrams (#21).
+"
+post;algebraicjulia_catlab.jl;b4eaeef90e97992e6cdc8dae5dbe0983e15d936b;epatters <ejpatters@gmail.com>;1564799215;"BUILD: Drop support for Julia v1.0.
+
+I am now using the `isnothing` function from Julia v1.1.
+"
+post;algebraicjulia_catlab.jl;65d3418ac52d44470675139f136dee8df0b7f5a8;epatters <ejpatters@gmail.com>;1564801728;"CLEANUP: Eliminate Nullables from GraphML serialization (#21).
+"
+post;algebraicjulia_catlab.jl;1c9db5b6d49cc9f88d13fb67772d2142679dca34;epatters <ejpatters@gmail.com>;1564803306;"CLEANUP: Eliminate Nullables from the computer algebra core.
+
+Closes #21.
+"
+post;algebraicjulia_catlab.jl;80ccad433158adce020463bdb4807d1ad70ac2da;Evan Patterson <ejpatters@gmail.com>;1565194342;"ENH: Topological sort function for wiring diagrams.
+
+A simple wrapper around the corresponding LightGraphs function.
+"
+post;algebraicjulia_catlab.jl;a121df953d7e7458c31f4e735ee446ede87cd2bc;Micah Halter <micah.halter@gtri.gatech.edu>;1565287664;"Added function that returns all wire names in wire diagram
+"
+pre;microprediction_timemachines;f8ea2e5728289b0419b19dfad8c0a3fb216d3964;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1676779247;Created using Colaboratory
+pre;microprediction_timemachines;7e1825d26ceb8347b4ae6d25b2158e0c62c19625;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1678200025;Update smdkarmafactory.py
+pre;microprediction_timemachines;2635edd0f576767d4ed42dc6939512600978b4c8;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1678206337;Create test_tsa_ensemble.py
+pre;microprediction_timemachines;7eb43aebb2a857ccb954eca11fb1a0b4a09ea201;mikeroweprediger <127407677+mikeroweprediger@users.noreply.github.com>;1679057446;Create stitching.py
+pre;microprediction_timemachines;2e8e8089fea63bd9ada18898536be8a29f83705d;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1679058591;"Merge pull request #132 from mikeroweprediger/main
+
+Create stitching.py"
+pre;microprediction_timemachines;1fc3e2b31a7ddfb4683473b5442aa10302442f90;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1679058679;Update test_tsa_ensemble.py
+pre;microprediction_timemachines;286f893b2c376f2dfec06d265634b9564b4f7150;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1679064527;Update test_tsa_ensemble.py
+pre;microprediction_timemachines;20edcc9e16b00f725cbf5c41b81af5f1c985bcc8;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1679064555;Update setup.py
+pre;microprediction_timemachines;4d4b5dfb80cf0a75e1d2f5ef54c20c85fae90895;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1679066528;Update test_tsa_ensemble.py
+pre;microprediction_timemachines;a4c1e34848c38da317aef6b83bc18a78b429c2db;Peter Cotton <peter.cotton@microprediction.com>;1685929168;"frac
+"
+post;microprediction_timemachines;d5b297088d1c23e71157df5a1f40a7404d0ec8cd;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729255434;Update CONTRIBUTE_COMPUTE_LOCAL.md
+post;microprediction_timemachines;200757e6541b045abf4c4eec59b33b5802a110ee;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729255456;Update CONTRIBUTE_COMPUTE_LOCAL_ONE_LINE.md
+post;microprediction_timemachines;e1def418168ccdda24ac5537c0ec7b5862ed1af1;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729255474;Update CONTRIBUTE_COMPUTE_MUIDS.md
+post;microprediction_timemachines;64592b6d9fd937bbbaf62088b1ef38b0e83368f2;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729255485;Update CONTRIBUTE_COMPUTE_PA.md
+post;microprediction_timemachines;406fb3a43cc4babf0fad934cf7aa0cc2db62cb4f;Peter Cotton <peter.cotton@microprediction.com>;1729256482;"clean up
+"
+post;microprediction_timemachines;4ce6f6b16e95384c6ebbfe97c381a96632fc2c03;Peter Cotton <peter.cotton@microprediction.com>;1729259202;"fixing tests
+"
+post;microprediction_timemachines;661b1e58beb0c863dce52401b97fa725f5c257a4;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729261321;Update test-tsa.yml
+post;microprediction_timemachines;4329af966f9b2572ff3a133ac80c82bae32ed471;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729261345;Update test-scipy.yml
+post;microprediction_timemachines;94bcdcad3b5ebc04a011d135d785628e0cd34b1c;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729261364;Update test-scikit-learn.yml
+post;microprediction_timemachines;ddf43655e864bab3d3b6193f59d61b64c03845a6;Peter Cotton <57455669+microprediction@users.noreply.github.com>;1729261375;Update test-river.yml
+pre;ntustison_crosslong;363cba6d6c7a4b6156485adb33c3b713afb882e1;jwbirchfield <jessewilliambirchfield@gmail.com>;1629155053;"model 7 individual pipeline estimates with more iterations
+"
+pre;ntustison_crosslong;c73f46a2e55df65ed8a37a216e673e3839e974f5;jwbirchfield <jessewilliambirchfield@gmail.com>;1633037113;"model 8, multi_normal CT with covariance matrix
+"
+pre;ntustison_crosslong;444342aa1c0d73a703a39da4e9b59128de0ff7ff;jwbirchfield <jessewilliambirchfield@gmail.com>;1633037602;"fixed priors on model8a
+"
+pre;ntustison_crosslong;f7ce9c451d9840309e14f2d9da6c1728218f7f6e;jwbirchfield <jessewilliambirchfield@gmail.com>;1633149995;"Added model8a summary
+"
+pre;ntustison_crosslong;a435f6a26dd53621ebbe585a6b005cc9347d6e1d;jwbirchfield <jessewilliambirchfield@gmail.com>;1633150034;"Added model6e table
+"
+pre;ntustison_crosslong;c108ad0cbb5c193a02c265581cc80fdd04caff98;jwbirchfield <jessewilliambirchfield@gmail.com>;1638386947;"Model 9 and 10
+"
+pre;ntustison_crosslong;616ee3d4e687591788f15abc39d02e453def4672;Ben <bbbales2@gmail.com>;1638417920;"Attempt to speed up model
+"
+pre;ntustison_crosslong;9770b0ba22f975c6e568699b1a6954cf0880388a;jwbirchfield <jessewilliambirchfield@gmail.com>;1639422363;"model 10f
+"
+pre;ntustison_crosslong;202d4b0b39ea0f431c5c051f0033912e6a6dcaf9;jwbirchfield <jessewilliambirchfield@gmail.com>;1639428743;"model10Data
+"
+pre;ntustison_crosslong;e6cdd22a7c950b2a68c3075c893ed1b74489bc61;andrewjholbrook <homefolder@fpgccaosorio.ad.medctr.ucla.edu>;1639433797;"data dump for cmdstan
+"
+post;ntustison_crosslong;cd8b83ba9b37348e79eb0dc96bcd12b3a549e9bb;Nick Tustison <ntustison@gmail.com>;1752692121;Update README.md
+pre;patwie_cppnumericalsolvers;9e21e01736237a1e10e57bffca1b00fe6655d9f6;Björn Ingvar Dahlgren <bjodah@gmail.com>;1643900657;"Re-derive Hessian matrix in simple example
+"
+pre;patwie_cppnumericalsolvers;064ab40ffccd45af0b3e98a9fc3a2fb59380e898;Antoine COLLET <42351498+antoinecollet5@users.noreply.github.com>;1655193566;"Update cmaesbsolver.h
+
+Make TMatrix dynamic"
+pre;patwie_cppnumericalsolvers;4577fbc50e8053b9717630eb4e9a31b3e88fc771;Antoine COLLET <42351498+antoinecollet5@users.noreply.github.com>;1655193566;"Update cmaesbsolver.h
+
+Make TMatrix dynamic"
+pre;patwie_cppnumericalsolvers;b87600d800df85bb2a7ae50183e2e6faf8de8320;Antoine COLLET <42351498+antoinecollet5@users.noreply.github.com>;1660054835;"Update cmaesbsolver.h
+
+FIX typo made with #141 ->  make problem size dynamic for CMAES-B, fix issue #142"
+pre;patwie_cppnumericalsolvers;748793494fc1a56597126756cd4b1cd65d414a87;Antoine COLLET <42351498+antoinecollet5@users.noreply.github.com>;1660054835;"Update cmaesbsolver.h
+
+FIX typo made with #141 ->  make problem size dynamic for CMAES-B, fix issue #142"
+pre;patwie_cppnumericalsolvers;ce08ba94394d00bfb2312aecea53b0b114a6f2a9;Trevor Blackwell <tlb@tlb.org>;1660417261;"Avoid alphaStar = -inf when du contains a zero
+
+When du(i) = 0 and it's approaching a lower bound, FindAlpha can return -inf. It should only return values in [0,1].
+The added check fixes it"
+pre;patwie_cppnumericalsolvers;b054707817b32cc3aff03ffb9e8390df64241d37;Trevor Blackwell <tlb@tlb.org>;1660417344;"Merge pull request #1 from tlbtlbtlb/tlbtlbtlb-patch-1
+
+Avoid alphaStar = -inf when du contains a zero"
+pre;patwie_cppnumericalsolvers;dfd85a4fc3501e010d84ba39c5745a235d6e544a;Trevor Blackwell <tlb@tlb.org>;1660418029;"Fix alphaStar=-inf
+"
+pre;patwie_cppnumericalsolvers;cad47dfb5df3b121d9ba96984ce59852bc7e7e85;Trevor Blackwell <tlb@tlb.org>;1660418365;"fix merge
+"
+pre;patwie_cppnumericalsolvers;4f54e69e78990de32d80f131243a8630ecc37aec;Trevor Blackwell <tlb@tlb.org>;1660588506;"Merge cad47dfb5df3b121d9ba96984ce59852bc7e7e85 into 9e21e01736237a1e10e57bffca1b00fe6655d9f6
+"
+post;patwie_cppnumericalsolvers;5abb2ca3c5722dfd4e913deef6621a4d7d2f3292;patwie <mail@patwie.com>;1704293800;"docs: Enhance README and Example Usage
+
+Revise and improve the README.md file to provide a clearer introduction
+and example usage for CppNumericalSolvers. The changes include refining
+language, adding code comments, and incorporating docstring in the
+example code.
+"
+post;patwie_cppnumericalsolvers;807715e287300c075d3dcc94a7c68a59c8744955;patwie <mail@patwie.com>;1740495052;"build: Support bazel 8
+
+Switching to a recent bazel version requires some changes in the build
+files. Further, we use this as a chance to use github ci workflows as
+the drone-ci instance is no longer active.
+"
+post;patwie_cppnumericalsolvers;0108c3e639f6ae3a97136d6d2a04d5ea045b4697;patwie <mail@patwie.com>;1740597536;"Introduce differential template argument
+
+We want pure virtual classes. Making the existence of a gradient, and
+Hessian member method as compile-time check. This removes the finite
+differences as a default gradient, Hessian, which should be anyway an
+explicit choice.
+"
+post;patwie_cppnumericalsolvers;59975b8680694bf3eae6b9c3ce7ec9c1bbfebc56;patwie <mail@patwie.com>;1740600531;"Implement NelderMead
+
+Porting over the version from v1.
+"
+post;patwie_cppnumericalsolvers;6af922befd25f158a52525ce9d66fe440543d607;patwie <mail@patwie.com>;1740770336;"Implement constrained optimization and improve L-BFGS
+
+This commit introduces support for constrained optimization problems
+and improves the L-BFGS algorithm.
+
+All functions will receive the position to evaluate and return an entire
+state (x, f(x), grad*, hessian*) instead of treating them separately.
+This simplifies the interface, while template parameters take care of
+treating functions according their differentiability.
+
+To support constrained problems, a new solver is implemented which can
+wrap all existing solvers to solver the unconstrained
+one via penalty method and augmented Lagrangian.
+
+It supports now:
+  min  f(x)
+  s.t. c1(x) >= 0
+       c2(x)  = 0
+
+Several changes are made to L-BFGS for more robust numerical handling of
+edge-cases.
+"
+post;patwie_cppnumericalsolvers;acc2975a157f17b474e44ab359b5f744a75cfc11;patwie <mail@patwie.com>;1740770336;"Implement constrained optimization and improve L-BFGS
+
+All function will receive the position to evaluate and return an entire
+state (x, f(x), grad*, hessian*). This simplifies the interface, while
+template parameters take care of treating functions according to
+differentiability.
+
+To support constrained problems, these are wrapped as an unconstrained
+one via penalty method and augmented Lagrangian, so they can be solved
+with any existing solver in this library.
+
+It supports now:
+  min  f(x)
+  s.t. c1(x) >= 0
+       c2(x)  = 0
+
+Several changes are made to L-BFGS for more robust numerical handling of
+edge-cases.
+"
+post;patwie_cppnumericalsolvers;84730abc23c60f35d9a0c40ea01c9a81a7f2b167;patwie <mail@patwie.com>;1740770336;"Implement constrained optimization and improve L-BFGS
+
+This commit introduces support for constrained optimization problems
+and improves the L-BFGS algorithm.
+
+All functions will receive the position to evaluate and return an entire
+state (x, f(x), grad*, hessian*) instead of treating them separately.
+This simplifies the interface, while template parameters take care of
+treating functions according their differentiability.
+
+To support constrained problems, a new solver is implemented which can
+wrap all existing solvers to solver the unconstrained
+one via penalty method and augmented Lagrangian.
+
+It supports now:
+  min  f(x)
+  s.t. c1(x) >= 0
+       c2(x)  = 0
+
+Several changes are made to L-BFGS for more robust numerical handling of
+edge-cases.
+"
+post;patwie_cppnumericalsolvers;e6510ebedc4fef5b410536c66ac146693a671471;patwie <mail@patwie.com>;1741035809;"Optimize function evaluation by reducing unnecessary gradients
+
+In line-search scenarios, only function values are required. Previously,
+the function state included full gradient and Hessian calculations,
+leading to unnecessary computations.
+
+This change ensures that gradients and Hessians are only requested
+when needed, improving efficiency without affecting accuracy.
+
+ - Cleaned up redundant template arguments for better readability.
+ - Reduced computational overhead in optimization routines.
+ - Preserved existing behavior while optimizing performance.
+"
+post;patwie_cppnumericalsolvers;7e22161ad64152b5a00e6c6ec921db686aff611b;patwie <mail@patwie.com>;1741035809;"Reduce function gradient computation
+
+Instead of using the full state, in line-search we just want function values.
+Hence, gradient or Hessian will be only requested if necessary.
+"
+post;patwie_cppnumericalsolvers;90325a5edff20a1f57e4151ae99f210a241fc8fc;patwie <mail@patwie.com>;1741035809;"Optimize function evaluation by reducing unnecessary gradients
+
+In line-search scenarios, only function values are required. Previously,
+the function state included full gradient and Hessian calculations,
+leading to unnecessary computations.
+
+This change ensures that gradients and Hessians are only requested
+when needed, improving efficiency without affecting accuracy.
+
+ - Cleaned up redundant template arguments for better readability.
+ - Reduced computational overhead in optimization routines.
+ - Preserved existing behavior while optimizing performance.
+"
+pre;sftcd_surveys;5ed527e641e3a4751c4662a458e7bcc84c04c023;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1530877875;"chasing numerical accuracy still;-)
+"
+pre;sftcd_surveys;bf4c735a515db0be9499aed4e44792bbadc42c71;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1530891968;"got 'em all (except 2git status)
+"
+pre;sftcd_surveys;f3febb8b9bcc91cb7198bdf4c726d23552c5152a;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1530917336;"fix up non-cluster counts
+"
+pre;sftcd_surveys;b2f992564e2adf63006a0f3466023b4a5036f7f3;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1533293940;"added match-ips.sh
+"
+pre;sftcd_surveys;1883d28a06fe327e8185e3278ebf1bd56f4b6edb;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1533293996;"moved a script
+"
+pre;sftcd_surveys;e2641963f868871b212897d50b53dad58543577b;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1533586495;"fix screwed up mv - dotdotdot (...) is not a good filename:-)
+"
+pre;sftcd_surveys;ca4e9f10e8c5a57785a76e88ae203cd610781365;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1533588262;"added output option to match-ips.sh
+"
+pre;sftcd_surveys;92f7811a9d764bf86c960a19e3403523589ebd4f;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1534176901;"allow multi-word needles
+"
+pre;sftcd_surveys;c9fc945b2512b0282bcb10998429be9e4e029329;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1547554537;"fix mmdb URL; needs re-testing
+"
+pre;sftcd_surveys;402b21276520c0ce63b19a4d5f2deea153fc6325;sftcd <stephen.farrell@cs.tcd.ie>;1562625024;"minor fix for word clouds
+"
+post;sftcd_surveys;744b044a77014154e968260f8dffb1586ca50cc4;Reuf Rujevic <78611901+Sjenica1@users.noreply.github.com>;1632916313;"Create Sjenica1 
+
+Authorized mit meine Account Sjenica1 github.com reufrujevic750@gmail.com"
+post;sftcd_surveys;689816d5be16310319eb48adfda09bb8f200842a;Reuf Rujevic <78611901+Sjenica1@users.noreply.github.com>;1632916321;"Merge 744b044a77014154e968260f8dffb1586ca50cc4 into 402b21276520c0ce63b19a4d5f2deea153fc6325
+"
+post;sftcd_surveys;7ecdaa57b77bc6e71ee423c77c06ac3a9a56c908;Stephen Farrell <stephen.farrell@cs.tcd.ie>;1644590150;"added 853 to gc.sh
+"
+post;sftcd_surveys;5912ea364dece73746da057ab312a41eca37e480;Rahul Seth <57781892+sethr07@users.noreply.github.com>;1646856355;all tested and working
+post;sftcd_surveys;fa1f71c6a78bd6ab664745b01f571ea8c3b86f8c;Rahul Seth <57781892+sethr07@users.noreply.github.com>;1646965202;working fine but ports: 443,587,993 not tested yet
+post;sftcd_surveys;c5b304f267dcad059fe460f2e7d1fb1f7cd3c8bf;Rahul Seth <57781892+sethr07@users.noreply.github.com>;1646965238;script for creating geoipcountrywhois.csv
+post;sftcd_surveys;300cb743068ac3a08f8e6d22a28d6e8daa6e4781;Rahul Seth <57781892+sethr07@users.noreply.github.com>;1646965288;maxmind stuff tested working
+post;sftcd_surveys;1aa6d133edb02af18e29c91a2102c69639eeb74b;Rahul Seth <57781892+sethr07@users.noreply.github.com>;1646965412;integrated MMCreateGeoIP.py
+post;sftcd_surveys;02142a6aed224bbb3f5b75aaf75aa37be7f27229;Rahul Seth <57781892+sethr07@users.noreply.github.com>;1646965446;updated
+post;sftcd_surveys;100a9ffe0cba18a245c72389fdbeea3aebcd9dbd;Rahul Seth <57781892+sethr07@users.noreply.github.com>;1646966907;Update install-deps.sh
+pre;simplenlg_simplenlg;c08457bde7d6789f16ac3bfd6da91bb3c069d9d0;verdi8 <laurent.knoll@gmail.com>;1520332085;"Merge remote-tracking branch 'origin/lexaccess_update' into lexaccess_update
+"
+pre;simplenlg_simplenlg;ecb91910c721b6a52367f8897b9b228f5719138a;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1521126581;"Merge pull request #53 from verdi8/lexaccess_update
+
+Lexaccess update and unembed"
+pre;simplenlg_simplenlg;08ded33d0b367f5d49de65dda7548e90758bcfb2;Saad Mahamood <saad.mahamood@trivago.com>;1521459518;"Updated .gitignore file
+
+Update the ignore directories for SNLG project.
+"
+pre;simplenlg_simplenlg;3f5aa70929781517ef753cded7a0b1e23c3543eb;bikramkhastgir <bikramkhastgir@yahoo.com>;1523256539;Update AdjectivePhraseTest.java
+pre;simplenlg_simplenlg;4ba50aaf3b3cfacb87b2a7065523b59931f349af;IronMelter <bikramkhastgir@yahoo.com>;1523256788;"Merge 3f5aa70929781517ef753cded7a0b1e23c3543eb into 08ded33d0b367f5d49de65dda7548e90758bcfb2
+"
+pre;simplenlg_simplenlg;6d7234d87322f9a27a6c31e2f481b23b7c50f986;GJdV <gj.de.vries@philips.com>;1531935770;"fixed two minor bugs in simpleNLG (probably copy-paste errors)
+"
+pre;simplenlg_simplenlg;c0a622635a3a38ca195737f2d0796c4e7c2710cc;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1531993780;"Merge pull request #57 from gjdv/bugfix-branch
+
+fixed two minor bugs in simpleNLG (probably copy-paste errors)"
+pre;simplenlg_simplenlg;848d5d3c71b78958f6d3f564d99bc4fb7d8a3f6a;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1535705642;Update README.md
+pre;simplenlg_simplenlg;47944b376f238dfbcf4ca4c0c1866fe25b369a6d;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1535705790;Update README.md
+pre;simplenlg_simplenlg;b2d7613e3eb52953e8f215414b4133939f21afcd;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1535705860;Update README.md
+post;simplenlg_simplenlg;b3fb854c297785418a61d11bbd845b2843635092;Saad Mahamood <saadino@mac.com>;1583866958;"+ [54] Fixes issues where JUnit test fail under JDKs greater than version 9 or higher.
++ Updated .travis.yml config to CI under OpenJDK 11.
++ Updated MPL license version from 1.1 to 2.0. Updated all references in code and LICENSE.md file.
+"
+post;simplenlg_simplenlg;7e6bf2f1f2c8d331636db5a0d1fd2186b84048b1;Saad Mahamood <saadino@mac.com>;1583867199;"Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	src/main/java/simplenlg/framework/LexicalCategory.java
+#	src/main/java/simplenlg/framework/PhraseCategory.java
+"
+post;simplenlg_simplenlg;471031638c21de43349f447db77a339514edec1b;Saad Mahamood <saadino@mac.com>;1583867459;"+ Removed older JDK versions from travis CI.
+"
+post;simplenlg_simplenlg;f0f6c8e8e52bd99c761d552297f89d76566a4971;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1583920033;Update README.md
+post;simplenlg_simplenlg;5c7026ee00940c224cacfca83ed7008e74683ac1;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1583920430;Update README.md
+post;simplenlg_simplenlg;08ccd75fb7674c5c85f792fa37d9d26ac2c33a5f;Saad Mahamood <saadino@mac.com>;1583923652;"+ [65] Fixed HTMLFormatter bug where H1 titles where being realised with ""null"" if no title was set for a given Document DocumentElement node. Added test case to HTMLFormatterTest.
+"
+post;simplenlg_simplenlg;3eda841b19d99b770f3bb1fe90e23605596564ca;Saad Mahamood <saadino@mac.com>;1583923664;"Merge remote-tracking branch 'origin/master'
+"
+post;simplenlg_simplenlg;25ba25fa2048c320c06325f066b053c1024415eb;Saad Mahamood <Saad-Mahamood@users.noreply.github.com>;1583923958;Update LICENSE.md
+post;simplenlg_simplenlg;ba24714388c528c24b7dcb75a0ca3a90844651be;Saad Mahamood <saadino@mac.com>;1586522014;"+ [#76] Fixed inconsistency in default-lexicon.xml file.
++ Changed POM to 4.5.0-SNAPSHOT and license version to MPL 2.0.
+"
+post;simplenlg_simplenlg;5f568efbd1f3b39fee56bd4805c829f5e5a0315f;Saad Mahamood <saadino@mac.com>;1586522464;"+ [#75] Fixed incorrect attribute for base form ""immune"" in default-lexicon.xml file.
+"
+pre;smtorg_smt;3301ec238ca293a0fedbf34e4554f7fe96aaa6ac;Paul-Saves <paul.saves@alumni.enac.fr>;1662467069;"update doc
+"
+pre;smtorg_smt;e67e01cfa9f56118cc98736615b05d9e9a683e87;Rémi Lafage <remi.lafage@onera.fr>;1662470775;Merge branch 'master' into master
+pre;smtorg_smt;56285a324a6debec2a3aeda3cbeea8c442615743;alex <alexth31@gmail.com>;1662534018;"Add kriging sampling test
+"
+pre;smtorg_smt;824634b558d54f03a9c15d3cb9e109d425943ff5;alex <alexth31@gmail.com>;1662538032;"Correct bug test_kriging_sampling_utils
+"
+pre;smtorg_smt;b5521e9de90971b12870a2709988389e70b5a676;AlexThv <96136796+AlexThv@users.noreply.github.com>;1662540359;"Add kriging sampling methods (#385)
+
+* Add kriging sampling methods
+
+* Add kriging sampling test
+
+* Correct bug test_kriging_sampling_utils"
+pre;smtorg_smt;5583a2296c983bf67b7c07512a6a0579cb94db68;Rémi Lafage <remi.lafage@onera.fr>;1662540729;Merge branch 'master' into master
+pre;smtorg_smt;a5f975ec84c9af3ff4d621d3b38ebfdaff7eae64;Saves Paul <paul.saves@alumni.enac.fr>;1662544155;"Update mixint ORD doc (#386)
+
+"
+pre;smtorg_smt;f8f7f36b1fd900432d8d4a67fd792a7a4ed26a6e;Rémi Lafage <remi.lafage@onera.fr>;1662555696;Add contributor
+pre;smtorg_smt;ce01c8e0770757eacd0554949997f5ca56560c49;relf <remi.lafage@onera.fr>;1662555851;"Take into account API change n tutorial
+"
+pre;smtorg_smt;a6c204a4e2608d9c74ea693e1338b1fc4416ff9f;Rémi Lafage <remi.lafage@onera.fr>;1662559246;"Refactoring kriging based surrogate and mixed integer (#384)
+
+* Move mixed_integer low level functions in utils
+
+* Move kernel enum in kriging based
+
+* Expose kernel and mixed integer enums as part of surrogate models API
+
+* Take into account API change in tests
+
+* Take into account API change in tutorial"
+post;smtorg_smt;fafc07942d14c4510d6a54144e86ad67e99f3e95;Paul-Saves <paul.saves@alumni.enac.fr>;1670689027;"add output derivative for abs_exp
+"
+post;smtorg_smt;27c1b9c0ff38a226bb5a88497f96dbc8a96ceea7;Paul-Saves <paul.saves@alumni.enac.fr>;1670692101;"update for test'
+'
+"
+post;smtorg_smt;d918cd1aa0a6897ae160d5cebc672507819a33e6;Paul-Saves <paul.saves@alumni.enac.fr>;1670693116;"correct bug
+"
+post;smtorg_smt;83249ecf33f995f2bd71ff4b2fb148ddfbcb2381;Paul-Saves <paul.saves@alumni.enac.fr>;1670693519;"fix test gekpls
+"
+post;smtorg_smt;052c2d2068992ef69d53e7e77f65f5e191e9de8f;Paul-Saves <paul.saves@alumni.enac.fr>;1670694471;"delete div by 0
+"
+post;smtorg_smt;93d3fb8c79fc74965bc6fc7bdd9eaf6c427bb241;Paul-Saves <paul.saves@alumni.enac.fr>;1670699796;"add matern32 derivative
+"
+post;smtorg_smt;8159c7e2bffbfd0938d3e04043951164b9460c65;Paul-Saves <paul.saves@alumni.enac.fr>;1670704346;"add matern52 derivative
+"
+post;smtorg_smt;a7905a04f5ad5e8cc52ac988a3421f5eb51e0df0;Paul-Saves <paul.saves@alumni.enac.fr>;1670707738;"add tests
+"
+post;smtorg_smt;84431822dd7b528abcf1d79634cd85df45d0c671;Paul-Saves <paul.saves@alumni.enac.fr>;1670779944;"remove duplicate code
+"
+post;smtorg_smt;f5ff5113712ee15004c4ce3f6ede2dec19295ec6;Paul-Saves <paul.saves@alumni.enac.fr>;1670792493;"clean code
+"
+pre;stan-dev_projpred;33008042bf3fac408bc5a14a4d94fc20593314fb;Juho Piironen <juho.piironen@aalto.fi>;1540205631;"updated documentation for mesquite data set.
+"
+pre;stan-dev_projpred;a88373ec4d8dfcf56bf37cc1a3fc524cb4631a00;Juho Piironen <juho.piironen@aalto.fi>;1540205660;"Merge branch 'development'
+"
+pre;stan-dev_projpred;d67ce7e463bda65a12df2963fd6ec44b837fd386;Juho Piironen <juho.piironen@aalto.fi>;1540207553;"updated the latest reference.
+"
+pre;stan-dev_projpred;672f86bef68d1bba6e2051261f931e633bba7ba4;Juho Piironen <juho.piironen@aalto.fi>;1540207583;"Merge branch 'development'
+"
+pre;stan-dev_projpred;806c72526f0427528954875e568c74b2c76ea72a;Juho Piironen <juho.piironen@aalto.fi>;1540218493;"fixed the arxiv-link.
+"
+pre;stan-dev_projpred;f3496ed413088a5680fa913fa1a3b68b6ef1f34f;Juho Piironen <juho.piironen@aalto.fi>;1540218519;"Merge branch 'development'
+"
+pre;stan-dev_projpred;7751a53963011cff0c7a123150d4f46ad9a5db03;Juho Piironen <juho.piironen@aalto.fi>;1540219264;"removed the note on changed syntax.
+"
+pre;stan-dev_projpred;efd0cfe8ba6eab6b7dade8007b411f83630a6926;Juho Piironen <juho.piironen@aalto.fi>;1540366117;"Merge branch 'development'
+"
+pre;stan-dev_projpred;c3b5d1945c8b2b6e72be41482ddf6c866b7f01a6;Juho Piironen <juho.piironen@aalto.fi>;1542025975;"wrapped the input argument parsing into functions for varsel and cv_varsel.
+"
+pre;stan-dev_projpred;52541cc01dab078a2d76465f71d26fb3b1ffd92c;Juho Piironen <juho.piironen@aalto.fi>;1542026020;"Merge branch 'varsel_defargs' into development
+"
+post;stan-dev_projpred;69930af9397f77f298d35181a57a0b90db10b476;Juho Piironen <juho@cai.fi>;1552224360;"trying to fix the errors in cran.
+"
+post;stan-dev_projpred;aba7a5fbb8d54facd1ff355e8ffe7a3981d09c62;Juho Piironen <juho@cai.fi>;1552224423;"update news.
+"
+post;stan-dev_projpred;df2359102ff757707d984fbfe0d8b2e7a32466ab;Juho Piironen <juho@cai.fi>;1552224462;"Merge branch 'development'
+"
+post;stan-dev_projpred;7a0b26116016dae29752bb06caadc27b234c03bd;Juho Piironen <juho@cai.fi>;1552229598;"fixing some mistakes in the tests.
+"
+post;stan-dev_projpred;4d754c9673fc07a58252fef979b350fd1b710af7;Juho Piironen <juho@cai.fi>;1552240050;"Merge branch 'master' into development
+"
+post;stan-dev_projpred;2b70033c202efe1008c8106890205303391d4232;Jonah Gabry <jgabry@gmail.com>;1552766486;Update _pkgdown.yml
+post;stan-dev_projpred;02dcd36998e18e6a2d5882e2b40020805bd208b5;Jonah Gabry <jgabry@gmail.com>;1557952963;"Use https links in description
+
+[ci skip]"
+post;stan-dev_projpred;b2a8f92f22fc246d06de663f7a8393b9d8e86a1b;jgabry <jgabry@gmail.com>;1557953316;"use https instead of http where possible
+
+[ci skip]
+"
+post;stan-dev_projpred;7a77dfec867616747e2184f60874759316d4a7d4;jgabry <jgabry@gmail.com>;1557966088;"remove rngtools
+"
+post;stan-dev_projpred;492e39d2f62df116d4343987df4125122aa58881;jgabry <jgabry@gmail.com>;1558027462;"remove rngtools
+"
+pre;whizzml_examples;91a346283910cca8bba12027a6d468f4919f2a91;Mercè Martín Prats <merce@bigml.com>;1678227583;"Changing docs to Markdown
+"
+pre;whizzml_examples;2edd8b6c1002ae7bccf2f8eb94e9b3736d3353e0;Mercè Martín Prats <merce@bigml.com>;1678227726;"Updating links to 101 docs
+"
+pre;whizzml_examples;c3ca8cdbcdd3396df25882fa935ed0afb6512951;Mercè Martín Prats <merce@bigml.com>;1678227785;"Fixing link to doc
+"
+pre;whizzml_examples;8cd30ff7fdf02a1809c291020a2c0fb346321aa2;Mercè Martín Prats <merce@bigml.com>;1678300258;"Adding changes after review requests
+"
+pre;whizzml_examples;5060faea329f1a9f6b958d883a4c407871b1215f;Mercè Martín Prats <merce@bigml.com>;1678300526;"Fixing links in docs
+"
+pre;whizzml_examples;13e2fcb0f91cb70bf10351ceda6f66801632530c;Mercè Martín Prats <merce@bigml.com>;1678300828;"Resizing images in docs
+"
+pre;whizzml_examples;cae0635f76c6a74140721218be9a2aa9ebe782d3;Mercè Martín Prats <merce@bigml.com>;1678301023;"Resizing images in docs
+"
+pre;whizzml_examples;bfbfa7f354bfe48aa32488783eb38fec27bf4935;Mercè Martín Prats <merce@bigml.com>;1678302228;"Adding last comments to docs
+"
+pre;whizzml_examples;3d0ee6283bf8630cf8d014869b55ba40df3378bc;Mercè Martín Prats <merce@bigml.com>;1678303638;"Adding WhizzML code examples to the workflow document
+"
+pre;whizzml_examples;6f2c6afe5d56e56bd709a28fea424d7c69cf8559;Mercè Martín Prats <merce@bigml.com>;1705448427;"Fixing bulk-move to avoid the limit in resources
+"
+post;whizzml_examples;ea90e29e7dcd7f6d5fca70cde83cf336fddfb2f0;Mercè Martín Prats <merce@bigml.com>;1745445261;"Fixing bulk move pagination
+"
+post;whizzml_examples;f568ca3cad7896e84e64fa139bea7e33d792290e;Mercè Martín Prats <merce@bigml.com>;1745447956;"Adding utilities for time series data preprocessing
+"
+post;whizzml_examples;f632f3bac95805191f09b673e5f50c1c3f050525;Mercè Martín Prats <merce@bigml.com>;1745448210;"Adding time series utility
+"
+post;whizzml_examples;4959b7d9834ee2e1984573baa92a4ce99d540401;Mercè Martín Prats <merce@bigml.com>;1746200232;"Adding review changes
+"
+post;whizzml_examples;7e3597c2ab06bdf54bb37a1127e5ba53e365da08;Mercè Martín Prats <merce@bigml.com>;1746229112;"Adding scripts to compute lags, windows aggregations, momentums and curvatures
+"
+post;whizzml_examples;934a1bd5875301fddd406a133c0a365691b85741;Mercè Martín Prats <merce@bigml.com>;1746462151;"Adding new time series transformations
+"
+post;whizzml_examples;9c2903552095f63752dea0fb2c4a625054067151;Mercè Martín Prats <merce@bigml.com>;1746462398;"Fixing time series script name
+"
+post;whizzml_examples;6b4984dd199f85461b17e1e770dc3317ff2dcf64;Mercè Martín Prats <merce@bigml.com>;1748000733;"Adding the day number to the time series preprocessing utility
+"
+post;whizzml_examples;75ed39987408481cf1db1568510649ab386e65cb;Mercè Martín Prats <merce@bigml.com>;1748019261;"Fixing description and adding traces
+"
+post;whizzml_examples;e65e7ef13ca62da8dceff7ddc14c149d8bb5d06d;Mercè Martín Prats <merce@bigml.com>;1748019554;"Fixing description and adding traces
+"
